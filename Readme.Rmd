@@ -192,7 +192,7 @@ Answer: As you do not have a comprehensive list for the indirect costs (as is th
 # __Descriptor "Cost_estimate_per_year_2017 (USD_exchange_rate or USD_PPP)"__    
 
 
-## *24.	Why do some cells not contain cost values?*    
+## Why do some cells not contain cost values?    
 There are cost entries for which we have inadequate time period information: some studies omitted to provide time periods, which can cause tremendous biases when analyzing the temporal trends of costs. Sometimes, this is not problematic as we can safely guess when costs occurred. In other cases, the exact or approximate duration of costs that spread over several years/decades is hardly guessable; therefore, it was impossible to safely estimate cost estimates per years for the latter cost entries.    
 
 

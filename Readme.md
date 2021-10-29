@@ -76,8 +76,8 @@ InvaCost - Frequently Asked Questions
 -   [**Descriptor “Cost\_estimate\_per\_year\_2017 (USD\_exchange\_rate
     or
     USD\_PPP)”**](#descriptor-cost_estimate_per_year_2017-usd_exchange_rate-or-usd_ppp)
-    -   [*24. Why do some cells not contain cost
-        values?*](#24-why-do-some-cells-not-contain-cost-values)
+    -   [Why do some cells not contain cost
+        values?](#why-do-some-cells-not-contain-cost-values)
 -   [**Descriptor
     “Type\_of\_applicable\_year”**](#descriptor-type_of_applicable_year)
     -   [If there is no way to infer the type of applicable year, what
@@ -503,7 +503,7 @@ source document.
 
 # **Descriptor “Cost\_estimate\_per\_year\_2017 (USD\_exchange\_rate or USD\_PPP)”**
 
-## *24. Why do some cells not contain cost values?*
+## Why do some cells not contain cost values?
 
 There are cost entries for which we have inadequate time period
 information: some studies omitted to provide time periods, which can
