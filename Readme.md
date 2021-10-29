@@ -1,6 +1,6 @@
 InvaCost - Frequently Asked Questions
 ================
-2021-10-14
+2021-10-29
 
 -   [**General questions on InvaCost**](#general-questions-on-invacost)
     -   [Where can I access the database and all related
@@ -38,68 +38,41 @@ InvaCost - Frequently Asked Questions
 -   [**Descriptor “Spatial\_scale”**](#descriptor-spatial_scale)
     -   [Question on how spatial scales are entered in the
         database](#question-on-how-spatial-scales-are-entered-in-the-database)
-    -   [](#section)
+    -   [Question on how to categorize costs estimated at different
+        levels](#question-on-how-to-categorize-costs-estimated-at-different-levels)
 -   [**Descriptor
     “Period\_of\_estimation”**](#descriptor-period_of_estimation)
-    -   [*14. If an article proclaims an economic loss, but does not
-        tell us if this is for one year or a loss over a certain period
-        of time, how should I deal with
-        it?*](#14-if-an-article-proclaims-an-economic-loss-but-does-not-tell-us-if-this-is-for-one-year-or-a-loss-over-a-certain-period-of-time-how-should-i-deal-with-it)
+    -   [Question on how dealing with missing temporal
+        information](#question-on-how-dealing-with-missing-temporal-information)
 -   [**Descriptor “Time\_range”**](#descriptor-time_range)
-    -   [*15. I have costs that are X US USD in total inferred from the
-        last 10 years prior to the publishing year of that study, I can
-        enter the ‘probable starting year’ and ‘probable ending year’,
-        the ‘raw cost estimate’, but I have some doubt for the
-        ‘Time\_range’ descriptor. Could you provide me with some
-        guidance?*](#15-i-have-costs-that-are-x-us-usd-in-total-inferred-from-the-last-10-years-prior-to-the-publishing-year-of-that-study-i-can-enter-the-probable-starting-year-and-probable-ending-year-the-raw-cost-estimate-but-i-have-some-doubt-for-the-time_range-descriptor-could-you-provide-me-with-some-guidance)
+    -   [Question on unclear cost
+        duration](#question-on-unclear-cost-duration)
 -   [**Descriptors “Probable\_starting\_year /
     Probable\_ending\_year”**](#descriptors-probable_starting_year--probable_ending_year)
-    -   [*16. What is the difference between these descriptors and those
-        that have ‘adjusted’ as an additional
-        term?*](#16-what-is-the-difference-between-these-descriptors-and-those-that-have-adjusted-as-an-additional-term)
+    -   [What is the difference between these descriptors and those that
+        have ‘adjusted’ as an additional
+        term?](#what-is-the-difference-between-these-descriptors-and-those-that-have-adjusted-as-an-additional-term)
 -   [**Descriptors “Probable\_starting\_year\_adjusted /
     Probable\_ending\_year\_adjusted”**](#descriptors-probable_starting_year_adjusted--probable_ending_year_adjusted)
-    -   [*17. Why do some cost entries have no information in these
-        columns?*](#17-why-do-some-cost-entries-have-no-information-in-these-columns)
-    -   [*18. Could I fill these cells when there is no information, so
-        that the ‘invacost’ package will consider these data for
-        temporal
-        analyses?*](#18-could-i-fill-these-cells-when-there-is-no-information-so-that-the-invacost-package-will-consider-these-data-for-temporal-analyses)
+    -   [Question on missing
+        information](#question-on-missing-information)
+    -   [Question on further use for data
+        analysis](#question-on-further-use-for-data-analysis)
 -   [**Descriptor “Occurrence”**](#descriptor-occurrence)
-    -   [*19. I have costs that are X US USD in total inferred from the
-        last 10 years prior to the publishing year of that study, I can
-        enter the ‘probable starting year’ and ‘probable ending year’,
-        the ‘raw cost estimate’, but I have some doubt for the
-        ‘Time\_range’ descriptor. Could you provide me with some
-        guidance?*](#19-i-have-costs-that-are-x-us-usd-in-total-inferred-from-the-last-10-years-prior-to-the-publishing-year-of-that-study-i-can-enter-the-probable-starting-year-and-probable-ending-year-the-raw-cost-estimate-but-i-have-some-doubt-for-the-time_range-descriptor-could-you-provide-me-with-some-guidance)
+    -   [Question on incomplete information from the reporting
+        document](#question-on-incomplete-information-from-the-reporting-document)
 -   [**Descriptor
     “Raw\_cost\_estimate\_local\_currency”**](#descriptor-raw_cost_estimate_local_currency)
-    -   [*20. How do I report cost estimates in cases when there were
-        both pooled data and data per species
-        provided?*](#20-how-do-i-report-cost-estimates-in-cases-when-there-were-both-pooled-data-and-data-per-species-provided)
-    -   [*21. One paper I am adding has avoided costs for two scenarios
-        (depending on climate change and management effort): “Under
-        moderate climate change (+1.5 8C by 2050) discounted net
-        benefits (4% discount rate) for the whole period range from 19
-        to 582 million euros depending on the effectiveness of the
-        policy impact. With stronger climate change (+2.4 8C by 2050)
-        the total discounted savings over the full period are expected
-        to range from 42 to 1063 million euros assuming a highly
-        effective policy.” Which values should I add? (1) pick one
-        scenario (2) add both scenarios as a separate entry (3) average
-        the costs
-        somehow?*](#21-one-paper-i-am-adding-has-avoided-costs-for-two-scenarios-depending-on-climate-change-and-management-effort-under-moderate-climate-change-15-8c-by-2050-discounted-net-benefits-4-discount-rate-for-the-whole-period-range-from-19-to-582-million-euros-depending-on-the-effectiveness-of-the-policy-impact-with-stronger-climate-change-24-8c-by-2050-the-total-discounted-savings-over-the-full-period-are-expected-to-range-from-42-to-1063-million-euros-assuming-a-highly-effective-policy-which-values-should-i-add-1-pick-one-scenario-2-add-both-scenarios-as-a-separate-entry-3-average-the-costs-somehow)
+    -   [Question on how collating specific
+        information](#question-on-how-collating-specific-information)
+    -   [Question on multiple cost data /
+        scenarios](#question-on-multiple-cost-data--scenarios)
 -   [**Descriptor “Raw\_cost\_estimate\_2017 (USD\_exchange\_rate or
     USD\_PPP)”**](#descriptor-raw_cost_estimate_2017-usd_exchange_rate-or-usd_ppp)
-    -   [*22. How should we convert the collected costs to 2017 US
-        USD?*](#22-how-should-we-convert-the-collected-costs-to-2017-us-usd)
-    -   [*23. I have a list of direct costs and a single “total cost”
-        for each species, where the total cost includes both direct and
-        indirect costs. I think about adding all of them as separate
-        lines in the database (with direct costs separated by sector
-        where possible), but technically that’s repeating some of the
-        costs - what would you
-        suggest?*](#23-i-have-a-list-of-direct-costs-and-a-single-total-cost-for-each-species-where-the-total-cost-includes-both-direct-and-indirect-costs-i-think-about-adding-all-of-them-as-separate-lines-in-the-database-with-direct-costs-separated-by-sector-where-possible-but-technically-thats-repeating-some-of-the-costs---what-would-you-suggest)
+    -   [How should we convert the collected costs to 2017 US
+        USD?](#how-should-we-convert-the-collected-costs-to-2017-us-usd)
+    -   [Question on which raw cost estimate should be
+        collated](#question-on-which-raw-cost-estimate-should-be-collated)
 -   [**Descriptor “Cost\_estimate\_per\_year\_2017 (USD\_exchange\_rate
     or
     USD\_PPP)”**](#descriptor-cost_estimate_per_year_2017-usd_exchange_rate-or-usd_ppp)
@@ -107,112 +80,44 @@ InvaCost - Frequently Asked Questions
         values?*](#24-why-do-some-cells-not-contain-cost-values)
 -   [**Descriptor
     “Type\_of\_applicable\_year”**](#descriptor-type_of_applicable_year)
-    -   [*25. If there is no way to infer the type of applicable year,
-        what do I put in that
-        column?*](#25-if-there-is-no-way-to-infer-the-type-of-applicable-year-what-do-i-put-in-that-column)
+    -   [If there is no way to infer the type of applicable year, what
+        do I put in that
+        column?](#if-there-is-no-way-to-infer-the-type-of-applicable-year-what-do-i-put-in-that-column)
 -   [**Descriptor “Implementation”**](#descriptor-implementation)
-    -   [*26. I sometimes struggle to distinguish between “observed”
-        versus “potential” costs. For example, I read the following “We
-        estimate hogweed prevalence at circa 0.1 hectare per district.
-        Given 323 rural districts, yields an expectation of 0.323 km2
-        inhabited by hogweed, whose removal would cost over € 5.6
-        million. However, these control efforts are not being
-        undertaken, it must be further assumed that less than 10 % of
-        this infested area is being dealt with (author’s estimate).”
-        Then later in the text these € 5.6 million listed as “annual
-        costs incurred by giant hogweed infestation in Germany.” The
-        authors classify it as an incurred –&gt; observed cost, despite
-        previously mentioning that only 10% of this estimated amount is
-        actually being spent. I have classified it as “potential”
-        although I still have doubts because the estimate is based on
-        the species’ current distribution. What do you
-        say?*](#26-i-sometimes-struggle-to-distinguish-between-observed-versus-potential-costs-for-example-i-read-the-following-we-estimate-hogweed-prevalence-at-circa-01-hectare-per-district-given-323-rural-districts-yields-an-expectation-of-0323-km2-inhabited-by-hogweed-whose-removal-would-cost-over--56-million-however-these-control-efforts-are-not-being-undertaken-it-must-be-further-assumed-that-less-than-10--of-this-infested-area-is-being-dealt-with-authors-estimate-then-later-in-the-text-these--56-million-listed-as-annual-costs-incurred-by-giant-hogweed-infestation-in-germany-the-authors-classify-it-as-an-incurred--observed-cost-despite-previously-mentioning-that-only-10-of-this-estimated-amount-is-actually-being-spent-i-have-classified-it-as-potential-although-i-still-have-doubts-because-the-estimate-is-based-on-the-species-current-distribution-what-do-you-say)
+    -   [Question on to distinguish between potential vs observed
+        costs](#question-on-to-distinguish-between-potential-vs-observed-costs)
 -   [**Descriptor
     “Acquisition\_method”**](#descriptor-acquisition_method)
-    -   [*27. You mention that “extrapolation” relies on computational
-        modeling. Is it always the case? For example, if it’s a simple
-        area-based upscaling without any modeling involved, would it be
-        estimation or
-        extrapolation?*](#27-you-mention-that-extrapolation-relies-on-computational-modeling-is-it-always-the-case-for-example-if-its-a-simple-area-based-upscaling-without-any-modeling-involved-would-it-be-estimation-or-extrapolation)
+    -   [Question on how to identify “extrapolation”
+        costs](#question-on-how-to-identify-extrapolation-costs)
 -   [**Descriptor “Impacted\_sector”**](#descriptor-impacted_sector)
-    -   [*28. Where the costs are for eradication, what is the
-        appropriate “impacted sector”? Is it the sector where most of
-        the costs of the invader would be if it weren’t eradicated, or
-        should it be authority/stakeholder costs because they are the
-        ones paying for the
-        eradication?*](#28-where-the-costs-are-for-eradication-what-is-the-appropriate-impacted-sector-is-it-the-sector-where-most-of-the-costs-of-the-invader-would-be-if-it-werent-eradicated-or-should-it-be-authoritystakeholder-costs-because-they-are-the-ones-paying-for-the-eradication)
+    -   [Question on how to identify the relevant impacted
+        sector](#question-on-how-to-identify-the-relevant-impacted-sector)
 -   [**Descriptor “Type\_of\_cost”**](#descriptor-type_of_cost)
-    -   [*29. The paper on economic impact of Acacia in Israel actually
-        reports the annual mean willingness to pay (WTP) for containment
-        or eradication of A. saligna was US USD8.41 and US USD8.83,
-        respectively. This is a non-monetary method. So I guess we
-        should not include it in
-        Invacost?*](#29-the-paper-on-economic-impact-of-acacia-in-israel-actually-reports-the-annual-mean-willingness-to-pay-wtp-for-containment-or-eradication-of-a-saligna-was-us-usd841-and-us-usd883-respectively-this-is-a-non-monetary-method-so-i-guess-we-should-not-include-it-in-invacost)
-    -   [*30. In some papers, they report that control/eradication
-        investment contributed to certain economic value that was saved
-        (e.g. ecosystem services, agriculture production, etc.) -
-        something that would be destroyed by IAS if such control effort
-        was not implemented (e.g. “It has been estimated that if sea
-        lamprey was not controlled, the loss of fishing opportunities
-        and indirect economic impacts could be greater than USD500
-        million annually”). I was also including such costs as
-        “Extrapolation”/“Potential” costs - on one hand, that is
-        something that did not happen and won’t it happen, because there
-        was control effort and such loss was prevented, but on the other
-        hand that is a nice indication of the potential of IAS to cause
-        economic cost, so it seemed appropriate to enter such economic
-        benefits saved/prevented through control as estimates of
-        potential damage some species can produce. What do you
-        think?*](#30-in-some-papers-they-report-that-controleradication-investment-contributed-to-certain-economic-value-that-was-saved-eg-ecosystem-services-agriculture-production-etc---something-that-would-be-destroyed-by-ias-if-such-control-effort-was-not-implemented-eg-it-has-been-estimated-that-if-sea-lamprey-was-not-controlled-the-loss-of-fishing-opportunities-and-indirect-economic-impacts-could-be-greater-than-usd500-million-annually-i-was-also-including-such-costs-as-extrapolationpotential-costs---on-one-hand-that-is-something-that-did-not-happen-and-wont-it-happen-because-there-was-control-effort-and-such-loss-was-prevented-but-on-the-other-hand-that-is-a-nice-indication-of-the-potential-of-ias-to-cause-economic-cost-so-it-seemed-appropriate-to-enter-such-economic-benefits-savedprevented-through-control-as-estimates-of-potential-damage-some-species-can-produce-what-do-you-think)
-    -   [*31. I have two papers which report avoided damage costs using
-        cost-benefit analyses. I interpret these as benefit values, and
-        if I understand correctly we do not include those in Invacost? I
-        have included excerpts from the paper here below. What is your
-        advice?*](#31-i-have-two-papers-which-report-avoided-damage-costs-using-cost-benefit-analyses-i-interpret-these-as-benefit-values-and-if-i-understand-correctly-we-do-not-include-those-in-invacost-i-have-included-excerpts-from-the-paper-here-below-what-is-your-advice)
+    -   [Question on non-monetary estimation
+        method](#question-on-non-monetary-estimation-method)
+    -   [Question on avoided costs](#question-on-avoided-costs)
+    -   [Question on cost-benefit
+        estimates](#question-on-cost-benefit-estimates)
 -   [**Descriptor
     “Method\_reliability”**](#descriptor-method_reliability)
-    -   [*32. Should I consider only cost data considered as of “high”
-        reliability?*](#32-should-i-consider-only-cost-data-considered-as-of-high-reliability)
-    -   [*33. I am not sure if the criteria I was applying for this
-        column is a proper one. If the authors of a grey report did some
-        estimation/calculation/extrapolation themselves, or cited others
-        who did it, but in either case if they did not explain clearly
-        how they came up with the value (in a clear enough manner so
-        others could repeat the whole procedure) I was marking it as
-        “Low”, as being a non-repeatable value. Moreover, if they
-        reported some investment (e.g. cost of eradication in some area)
-        but didn’t provide clear data about it (e.g. who funded it, who
-        and what was exactly funded, etc.), e.g. if they only cited
-        briefly some other paper as a source, I was also marking it as
-        “Low”, as being non-repeatable - I am not sure if this is
-        OK?*](#33-i-am-not-sure-if-the-criteria-i-was-applying-for-this-column-is-a-proper-one-if-the-authors-of-a-grey-report-did-some-estimationcalculationextrapolation-themselves-or-cited-others-who-did-it-but-in-either-case-if-they-did-not-explain-clearly-how-they-came-up-with-the-value-in-a-clear-enough-manner-so-others-could-repeat-the-whole-procedure-i-was-marking-it-as-low-as-being-a-non-repeatable-value-moreover-if-they-reported-some-investment-eg-cost-of-eradication-in-some-area-but-didnt-provide-clear-data-about-it-eg-who-funded-it-who-and-what-was-exactly-funded-etc-eg-if-they-only-cited-briefly-some-other-paper-as-a-source-i-was-also-marking-it-as-low-as-being-non-repeatable---i-am-not-sure-if-this-is-ok)
+    -   [Should I consider only cost data considered as of “high”
+        reliability?](#should-i-consider-only-cost-data-considered-as-of-high-reliability)
+    -   [Question on methodology for grey
+        materials](#question-on-methodology-for-grey-materials)
 -   [**Descriptor
     “Method\_reliability\_refined”**](#descriptor-method_reliability_refined)
-    -   [*34. What is the difference between the ‘Method\_reliability’
-        and the
-        ‘Method\_reliability\_refined’columns?*](#34-what-is-the-difference-between-the-method_reliability-and-the-method_reliability_refinedcolumns)
-    -   [*35. Why do some cost entries have empty cells for this
-        descriptor?*](#35-why-do-some-cost-entries-have-empty-cells-for-this-descriptor)
+    -   [What is the difference between the ‘Method\_reliability’ and
+        the
+        ‘Method\_reliability\_refined’columns?](#what-is-the-difference-between-the-method_reliability-and-the-method_reliability_refinedcolumns)
+    -   [Why do some cost entries have empty cells for this
+        descriptor?](#why-do-some-cost-entries-have-empty-cells-for-this-descriptor)
 -   [**Descriptor “Overlap”**](#descriptor-overlap)
-    -   [*36. There are some studies which have modelled the cost of
-        managing (or containing) invasive species in a landscape. Like
-        other modelling studies, these studies often use known
-        parameters based on a small spatial scale to extrapolate the
-        estimated cost for a larger spatio-temporal scale. While dealing
-        with these studies, should we extract both information or only
-        the extrapolated
-        one?*](#36-there-are-some-studies-which-have-modelled-the-cost-of-managing-or-containing-invasive-species-in-a-landscape-like-other-modelling-studies-these-studies-often-use-known-parameters-based-on-a-small-spatial-scale-to-extrapolate-the-estimated-cost-for-a-larger-spatio-temporal-scale-while-dealing-with-these-studies-should-we-extract-both-information-or-only-the-extrapolated-one)
+    -   [Question on how dealing with multiple costs from a single
+        study](#question-on-how-dealing-with-multiple-costs-from-a-single-study)
 -   [**Descriptor “Benefit\_value(s)”**](#descriptor-benefit_values)
-    -   [*37. My understanding is that this should be noted with “Yes”
-        only if the authors also reported that the given IAS also
-        produces some positive monetary values, and they reported such
-        values in the paper? There is also a case where authors report
-        cost of controlling/eradicating some species, and they also
-        provide some positive values that such control efforts produce
-        (e.g. increased employment), but I think this should not be
-        considered as a benefit value of IAS, as it is not a monetary
-        gain IAS produces,
-        right?*](#37-my-understanding-is-that-this-should-be-noted-with-yes-only-if-the-authors-also-reported-that-the-given-ias-also-produces-some-positive-monetary-values-and-they-reported-such-values-in-the-paper-there-is-also-a-case-where-authors-report-cost-of-controllingeradicating-some-species-and-they-also-provide-some-positive-values-that-such-control-efforts-produce-eg-increased-employment-but-i-think-this-should-not-be-considered-as-a-benefit-value-of-ias-as-it-is-not-a-monetary-gain-ias-produces-right)
+    -   [Question on whether and how reporting monetary
+        benefices](#question-on-whether-and-how-reporting-monetary-benefices)
 
 This page lists the most common questions asked on the InvaCost
 database, and the answers we provided for them. If you have one question
@@ -419,15 +324,15 @@ have no precise idea on how the cost is specifically distributed
 
 ## Question on how spatial scales are entered in the database
 
-If an article proclaims a loss in property values per house on a lake
-side, but does not tell us how many houses there actually are, how
-should I deal with it?
+Question: If an article proclaims a loss in property values per house on
+a lake side, but does not tell us how many houses there actually are,
+how should I deal with it?
 
-You must record the information as it is provided, i.e. take the cost as
-given by the authors (no necessary to multiply by the number of houses),
-and precise *unit (house)* in the **Spatial scale** column.
+Answer: You must record the information as it is provided, i.e. take the
+cost as given by the authors (no necessary to multiply by the number of
+houses), and precise *unit (house)* in the **Spatial scale** column.
 
-## 
+## Question on how to categorize costs estimated at different levels
 
 Question: How do we treat costs that are given at a per individual level
 and/or are estimated as a total savings due to some effective control
@@ -452,24 +357,35 @@ was not effective control.
 
 # **Descriptor “Period\_of\_estimation”**
 
-## *14. If an article proclaims an economic loss, but does not tell us if this is for one year or a loss over a certain period of time, how should I deal with it?*
+## Question on how dealing with missing temporal information
 
-You should indicate *unspecified* in the **period of estimation**
-column, and also in the **Time range**, **starting year** and **ending
-year** columns (if these information are also not provided).
+Question: If an article proclaims an economic loss, but does not tell us
+if this is for one year or a loss over a certain period of time, how
+should I deal with it?\*
+
+Answer: You should indicate *unspecified* in the **period of
+estimation** column, and also in the **Time range**, **starting year**
+and **ending year** columns (if these information are also not
+provided).
 
 # **Descriptor “Time\_range”**
 
-## *15. I have costs that are X US USD in total inferred from the last 10 years prior to the publishing year of that study, I can enter the ‘probable starting year’ and ‘probable ending year’, the ‘raw cost estimate’, but I have some doubt for the ‘Time\_range’ descriptor. Could you provide me with some guidance?*
+## Question on unclear cost duration
 
-You should consider *year* if the cost is provided as an annual value
-expected to occur each year over the last 10 years. Conversely, you
-should enter *period* if the cost is provided as a total sum over the 10
-years.
+Question : I have costs that are X US USD in total inferred from the
+last 10 years prior to the publishing year of that study, I can enter
+the ‘probable starting year’ and ‘probable ending year’, the ‘raw cost
+estimate’, but I have some doubt for the ‘Time\_range’ descriptor. Could
+you provide me with some guidance?\*
+
+Answer: You should consider *year* if the cost is provided as an annual
+value expected to occur each year over the last 10 years. Conversely,
+you should enter *period* if the cost is provided as a total sum over
+the 10 years.
 
 # **Descriptors “Probable\_starting\_year / Probable\_ending\_year”**
 
-## *16. What is the difference between these descriptors and those that have ‘adjusted’ as an additional term?*
+## What is the difference between these descriptors and those that have ‘adjusted’ as an additional term?
 
 The **probable\_starting\_year** & **probable\_ending\_year** columns
 (named *original columns* hereafter) contain the information extracted
@@ -485,69 +401,101 @@ year or calculated from the duration time, when provided).
 
 # **Descriptors “Probable\_starting\_year\_adjusted / Probable\_ending\_year\_adjusted”**
 
-## *17. Why do some cost entries have no information in these columns?*
+## Question on missing information
 
-When we were not able to estimate them based on the ones provided by the
-authors (e.g. **Period\_of\_estimation** column), we leave them blank,
-and then we don’t calculate the cost estimates per year. This means that
-the cost entries that have no information for at least one of these
-columns are not included in most of the cost analyses implemented in the
-package.
+Question: Why do some cost entries have no information in these columns?
 
-## *18. Could I fill these cells when there is no information, so that the ‘invacost’ package will consider these data for temporal analyses?*
+Answer: When we were not able to estimate them based on the ones
+provided by the authors (e.g. **Period\_of\_estimation** column), we
+leave them blank, and then we don’t calculate the cost estimates per
+year. This means that the cost entries that have no information for at
+least one of these columns are not included in most of the cost analyses
+implemented in the package.
 
-As for any missing information in the database, you can fill the blank
-cells based on your own assumptions. In that case, you should upload the
-altered dataset and not use the original one if you want to use the
-‘invacost’ package – as the latter only includes the original updated
-versions of the database.
+## Question on further use for data analysis
+
+Question: Could I fill these cells when there is no information, so that
+the ‘invacost’ package will consider these data for temporal analyses?
+
+Answer: As for any missing information in the database, you can fill the
+blank cells based on your own assumptions. In that case, you should
+upload the altered dataset and not use the original one if you want to
+use the ‘invacost’ package – as the latter only includes the original
+updated versions of the database.
 
 # **Descriptor “Occurrence”**
 
-## *19. I have costs that are X US USD in total inferred from the last 10 years prior to the publishing year of that study, I can enter the ‘probable starting year’ and ‘probable ending year’, the ‘raw cost estimate’, but I have some doubt for the ‘Time\_range’ descriptor. Could you provide me with some guidance?*
+## Question on incomplete information from the reporting document
 
-If the cost is expected to not still occurring after these 10 years, you
-can indicate *one time* in the **Occurrence** column. Otherwise, you
-should put *potentially ongoing*, if there is some reason to suspect
-that this cost still continued after its report in the source document.
+Question: I have costs that are X US USD in total inferred from the last
+10 years prior to the publishing year of that study, I can enter the
+‘probable starting year’ and ‘probable ending year’, the ‘raw cost
+estimate’, but I have some doubt for the ‘Time\_range’ descriptor. Could
+you provide me with some guidance?
+
+Answer: If the cost is expected to not still occurring after these 10
+years, you can indicate *one time* in the **Occurrence** column.
+Otherwise, you should put *potentially ongoing*, if there is some reason
+to suspect that this cost still continued after its report in the source
+document.
 
 # **Descriptor “Raw\_cost\_estimate\_local\_currency”**
 
-## *20. How do I report cost estimates in cases when there were both pooled data and data per species provided?*
+## Question on how collating specific information
 
-You should report data per species, but in cases when all data were
-reported per same species or group or species, but they provided both
-pooled and very detailed data for different cost categories (e.g. price
-per gas, manpower, overheads, etc.), you should opt for pooled data. In
-some cases, they reported different values for costs for different
-years, even though all the other descriptors (species, locality) were
-the same. In that case, you should report each of the values separately
-for each year.
+Question: How do I report cost estimates in cases when there were both
+pooled data and data per species provided?
 
-## *21. One paper I am adding has avoided costs for two scenarios (depending on climate change and management effort): “Under moderate climate change (+1.5 8C by 2050) discounted net benefits (4% discount rate) for the whole period range from 19 to 582 million euros depending on the effectiveness of the policy impact. With stronger climate change (+2.4 8C by 2050) the total discounted savings over the full period are expected to range from 42 to 1063 million euros assuming a highly effective policy.” Which values should I add? (1) pick one scenario (2) add both scenarios as a separate entry (3) average the costs somehow?*
+Answer: You should report data per species, but in cases when all data
+were reported per same species or group or species, but they provided
+both pooled and very detailed data for different cost categories
+(e.g. price per gas, manpower, overheads, etc.), you should opt for
+pooled data. In some cases, they reported different values for costs for
+different years, even though all the other descriptors (species,
+locality) were the same. In that case, you should report each of the
+values separately for each year.
 
-When there are several cost figures from the different scenarios, we
-suggest taking the smallest cost (here, 19 million €) as the minimum
-cost estimate and the higher cost (here, 1063 million €) as the maximum
-cost estimate. From there, you can use the median cost (of all the known
-values) as the **Raw cost estimate**.
+## Question on multiple cost data / scenarios
+
+Question: One paper I am adding has avoided costs for two scenarios
+(depending on climate change and management effort): “Under moderate
+climate change (+1.5 8C by 2050) discounted net benefits (4% discount
+rate) for the whole period range from 19 to 582 million euros depending
+on the effectiveness of the policy impact. With stronger climate change
+(+2.4 8C by 2050) the total discounted savings over the full period are
+expected to range from 42 to 1063 million euros assuming a highly
+effective policy.” Which values should I add? (1) pick one scenario (2)
+add both scenarios as a separate entry (3) average the costs somehow?\*
+
+Answer: When there are several cost figures from the different
+scenarios, we suggest taking the smallest cost (here, 19 million €) as
+the minimum cost estimate and the higher cost (here, 1063 million €) as
+the maximum cost estimate. From there, you can use the median cost (of
+all the known values) as the **Raw cost estimate**.
 
 # **Descriptor “Raw\_cost\_estimate\_2017 (USD\_exchange\_rate or USD\_PPP)”**
 
-## *22. How should we convert the collected costs to 2017 US USD?*
+## How should we convert the collected costs to 2017 US USD?
 
 We ask collectors to record only the raw cost estimate as provided in
 the source document. The cost standardisation to 2017 US USD is carried
 out by us. We are working on implementing this step directly into the
 ‘invacost’ package.
 
-## *23. I have a list of direct costs and a single “total cost” for each species, where the total cost includes both direct and indirect costs. I think about adding all of them as separate lines in the database (with direct costs separated by sector where possible), but technically that’s repeating some of the costs - what would you suggest?*
+## Question on which raw cost estimate should be collated
 
-As you do not a comprehensive list for the indirect costs (as is the
-case for direct costs here), I suggest to collate only total costs per
-species – so that you will not miss the estimates associated with
-indirect costs (it would be the case if you opt for adding direct costs
-only. If you feel some costs may be repeated, you can specify this
+Question: I have a list of direct costs and a single “total cost” for
+each species, where the total cost includes both direct and indirect
+costs. I think about adding all of them as separate lines in the
+database (with direct costs separated by sector where possible), but
+technically that’s repeating some of the costs - what would you
+suggest?\*
+
+Answer: As you do not have a comprehensive list for the indirect costs
+(as is the case for direct costs here), I suggest to collate only total
+costs per species – so that you will not miss the estimates associated
+with indirect costs (it would be the case if you opt for adding direct
+costs only. If you feel some costs may be repeated, you can specify this
 information in the **Overlap** column. Also, you can provide a full
 explanation of your choice in the ‘Details’ descriptor, so that readers
 and users will be aware that complementary details can be found in the
@@ -568,7 +516,7 @@ latter cost entries.
 
 # **Descriptor “Type\_of\_applicable\_year”**
 
-## *25. If there is no way to infer the type of applicable year, what do I put in that column?*
+## If there is no way to infer the type of applicable year, what do I put in that column?
 
 Actually, the applicable year is the year used for standardizing costs
 to US USD 2017. You must fill the cell with either *effective* if the
@@ -578,64 +526,118 @@ in your case.
 
 # **Descriptor “Implementation”**
 
-## *26. I sometimes struggle to distinguish between “observed” versus “potential” costs. For example, I read the following “We estimate hogweed prevalence at circa 0.1 hectare per district. Given 323 rural districts, yields an expectation of 0.323 km2 inhabited by hogweed, whose removal would cost over € 5.6 million. However, these control efforts are not being undertaken, it must be further assumed that less than 10 % of this infested area is being dealt with (author’s estimate).” Then later in the text these € 5.6 million listed as “annual costs incurred by giant hogweed infestation in Germany.” The authors classify it as an incurred –&gt; observed cost, despite previously mentioning that only 10% of this estimated amount is actually being spent. I have classified it as “potential” although I still have doubts because the estimate is based on the species’ current distribution. What do you say?*
+## Question on to distinguish between potential vs observed costs
 
-We agree with the choice you did, i.e. classify this cost as *potential*
-because the control efforts were not undertaken. Note that we are
-currently refining this descriptor in order to consider simultaneously
-the distribution of the invasive species, the nature (realized or not)
-of the cost as well as the temporality (past/current or predicted) of
-the quantified impact in the study area.
+Question: I sometimes struggle to distinguish between “observed” versus
+“potential” costs. For example, I read the following “We estimate
+hogweed prevalence at circa 0.1 hectare per district. Given 323 rural
+districts, yields an expectation of 0.323 km2 inhabited by hogweed,
+whose removal would cost over € 5.6 million. However, these control
+efforts are not being undertaken, it must be further assumed that less
+than 10 % of this infested area is being dealt with (author’s
+estimate).” Then later in the text these € 5.6 million listed as “annual
+costs incurred by giant hogweed infestation in Germany.” The authors
+classify it as an incurred –&gt; observed cost, despite previously
+mentioning that only 10% of this estimated amount is actually being
+spent. I have classified it as “potential” although I still have doubts
+because the estimate is based on the species’ current distribution. What
+do you say?\*
+
+Answer: We agree with the choice you did, i.e. classify this cost as
+*potential* because the control efforts were not undertaken. Note that
+we are currently refining this descriptor in order to consider
+simultaneously the distribution of the invasive species, the nature
+(realized or not) of the cost as well as the temporality (past/current
+or predicted) of the quantified impact in the study area.
 
 # **Descriptor “Acquisition\_method”**
 
-## *27. You mention that “extrapolation” relies on computational modeling. Is it always the case? For example, if it’s a simple area-based upscaling without any modeling involved, would it be estimation or extrapolation?*
+## Question on how to identify “extrapolation” costs
 
-It is likely that a large part of reported/estimated costs comes from
-spatial up-scaling (for instance, costs reported at a *national* scale
-are probably not systematically the result of estimations from all the
-regions of the country, but often derive from estimations made for a one
-or some areas within this country). However, in most cases the authors
-do not explicitly state it. Therefore, we have decided to indicate
-*extrapolation* only when it is clearly indicated in the paper (for
-instance, via formula or calculations over a long time period or area).
+Question: You mention that “extrapolation” relies on computational
+modeling. Is it always the case? For example, if it’s a simple
+area-based upscaling without any modeling involved, would it be
+estimation or extrapolation?\*
+
+Answer: It is likely that a large part of reported/estimated costs comes
+from spatial up-scaling (for instance, costs reported at a *national*
+scale are probably not systematically the result of estimations from all
+the regions of the country, but often derive from estimations made for a
+one or some areas within this country). However, in most cases the
+authors do not explicitly state it. Therefore, we have decided to
+indicate *extrapolation* only when it is clearly indicated in the paper
+(for instance, via formula or calculations over a long time period or
+area).
 
 # **Descriptor “Impacted\_sector”**
 
-## *28. Where the costs are for eradication, what is the appropriate “impacted sector”? Is it the sector where most of the costs of the invader would be if it weren’t eradicated, or should it be authority/stakeholder costs because they are the ones paying for the eradication?*
+## Question on how to identify the relevant impacted sector
 
-In cases where we don’t have exact information on the sector(s) impacted
-by the cost, we put *Diverse/unspecified* when the costs are explicitly
-related to damage or loss. When this is about management – like in your
-case – we enter *authority/stakeholders*.
+Question: When the costs are for eradication, what is the appropriate
+“impacted sector”? Is it the sector where most of the costs of the
+invader would be if it weren’t eradicated, or should it be
+authority/stakeholder costs because they are the ones paying for the
+eradication?\*
+
+Answer: In cases where we don’t have exact information on the sector(s)
+impacted by the cost, we put *Diverse/unspecified* when the costs are
+explicitly related to damage or loss. When this is about management –
+like in your case – we enter *authority/stakeholders*.
 
 # **Descriptor “Type\_of\_cost”**
 
-## *29. The paper on economic impact of Acacia in Israel actually reports the annual mean willingness to pay (WTP) for containment or eradication of A. saligna was US USD8.41 and US USD8.83, respectively. This is a non-monetary method. So I guess we should not include it in Invacost?*
+## Question on non-monetary estimation method
 
-Actually, we report all economic estimates irrespective of the method
-used. Especially, the WTP is a method that was used for several cost
-estimates already recorded in our database. You can therefore enter this
-*containment/eradication* cost and indicate that the method used is the
-mean willingness to pay in the **Details** column.
+Question: The paper on economic impact of Acacia in Israel actually
+reports the annual mean willingness to pay (WTP) for containment or
+eradication of A. saligna was US USD8.41 and US USD8.83, respectively.
+This is a non-monetary method. So I guess we should not include it in
+Invacost?\*
 
-## *30. In some papers, they report that control/eradication investment contributed to certain economic value that was saved (e.g. ecosystem services, agriculture production, etc.) - something that would be destroyed by IAS if such control effort was not implemented (e.g. “It has been estimated that if sea lamprey was not controlled, the loss of fishing opportunities and indirect economic impacts could be greater than USD500 million annually”). I was also including such costs as “Extrapolation”/“Potential” costs - on one hand, that is something that did not happen and won’t it happen, because there was control effort and such loss was prevented, but on the other hand that is a nice indication of the potential of IAS to cause economic cost, so it seemed appropriate to enter such economic benefits saved/prevented through control as estimates of potential damage some species can produce. What do you think?*
+Answer: Actually, we report all economic estimates irrespective of the
+method used. Especially, the WTP is a method that was used for several
+cost estimates already recorded in our database. You can therefore enter
+this *containment/eradication* cost and indicate that the method used is
+the mean willingness to pay in the **Details** column.
 
-We agree with you. In addition, these potential cost estimates should be
-considered as *avoided costs* for the **Type\_of\_cost** descriptor.
+## Question on avoided costs
 
-## *31. I have two papers which report avoided damage costs using cost-benefit analyses. I interpret these as benefit values, and if I understand correctly we do not include those in Invacost? I have included excerpts from the paper here below. What is your advice?*
+Question: In some papers, they report that control/eradication
+investment contributed to certain economic value that was saved
+(e.g. ecosystem services, agriculture production, etc.) - something that
+would be destroyed by IAS if such control effort was not implemented
+(e.g. “It has been estimated that if sea lamprey was not controlled, the
+loss of fishing opportunities and indirect economic impacts could be
+greater than USD500 million annually”). I was also including such costs
+as “Extrapolation”/“Potential” costs - on one hand, that is something
+that did not happen and won’t it happen, because there was control
+effort and such loss was prevented, but on the other hand that is a nice
+indication of the potential of IAS to cause economic cost, so it seemed
+appropriate to enter such economic benefits saved/prevented through
+control as estimates of potential damage some species can produce. What
+do you think?\*
 
-These costs should not be considered as actual benefits because they are
-not the results of the direct exploitation of the invasive species. We
-decided to consider them as *avoided costs* (for the **Type of cost**),
-and mark them as *potential* costs (for the **Implementation**
-descriptor). Indeed, they represent money would have been lost if
-nothing was done.
+Answer: We agree with you. In addition, these potential cost estimates
+should be considered as *avoided costs* for the **Type\_of\_cost**
+descriptor.
+
+## Question on cost-benefit estimates
+
+Question: I have two papers which report avoided damage costs using
+cost-benefit analyses. I interpret these as benefit values, and if I
+understand correctly we do not include those in Invacost? I have
+included excerpts from the paper here below. What is your advice?\*
+
+Answer: These costs should not be considered as actual benefits because
+they are not the results of the direct exploitation of the invasive
+species. We decided to consider them as *avoided costs* (for the **Type
+of cost**), and mark them as *potential* costs (for the
+**Implementation** descriptor). Indeed, they represent money would have
+been lost if nothing was done.
 
 # **Descriptor “Method\_reliability”**
 
-## *32. Should I consider only cost data considered as of “high” reliability?*
+## Should I consider only cost data considered as of “high” reliability?
 
 You should remember that this column does not reflect a systematic
 examination of the methodology for peer-reviewed articles and official
@@ -656,15 +658,27 @@ reproducibility” section in Bradshaw et al. 2016:
 <https://doi.org/10.1038/ncomms12986>). You could also rely on the
 **Method\_reliability\_refined** descriptor (see below).
 
-## *33. I am not sure if the criteria I was applying for this column is a proper one. If the authors of a grey report did some estimation/calculation/extrapolation themselves, or cited others who did it, but in either case if they did not explain clearly how they came up with the value (in a clear enough manner so others could repeat the whole procedure) I was marking it as “Low”, as being a non-repeatable value. Moreover, if they reported some investment (e.g. cost of eradication in some area) but didn’t provide clear data about it (e.g. who funded it, who and what was exactly funded, etc.), e.g. if they only cited briefly some other paper as a source, I was also marking it as “Low”, as being non-repeatable - I am not sure if this is OK?*
+## Question on methodology for grey materials
 
-Yes, we agree with your choices as the estimation methodology for grey
-materials (other than official reports) should be transparent and
-reproducible to be considered as of *high* reliability.
+Question: I am not sure if the criteria I was applying for this column
+is a proper one. If the authors of a grey report did some
+estimation/calculation/extrapolation themselves, or cited others who did
+it, but in either case if they did not explain clearly how they came up
+with the value (in a clear enough manner so others could repeat the
+whole procedure) I was marking it as “Low”, as being a non-repeatable
+value. Moreover, if they reported some investment (e.g. cost of
+eradication in some area) but didn’t provide clear data about it
+(e.g. who funded it, who and what was exactly funded, etc.), e.g. if
+they only cited briefly some other paper as a source, I was also marking
+it as “Low”, as being non-repeatable - I am not sure if this is OK?
+
+Answer: Yes, we agree with your choices as the estimation methodology
+for grey materials (other than official reports) should be transparent
+and reproducible to be considered as of *high* reliability.
 
 # **Descriptor “Method\_reliability\_refined”**
 
-## *34. What is the difference between the ‘Method\_reliability’ and the ‘Method\_reliability\_refined’columns?*
+## What is the difference between the ‘Method\_reliability’ and the ‘Method\_reliability\_refined’columns?
 
 The reproducibility of published methods should not rely only on the
 nature of the materials, but also on the transparency and
@@ -682,7 +696,7 @@ on an expert-based assessment of reliability – and not pre-defined
 criteria – and can be used as an alternative or as a complementary
 approach to the standard \*\*Method\_reliability\* descriptor.
 
-## *35. Why do some cost entries have empty cells for this descriptor?*
+## Why do some cost entries have empty cells for this descriptor?
 
 We fill this column as we get new expert-based assessment of the method
 reliability of the cost entries. This means that currently empty cells
@@ -690,28 +704,44 @@ will be filled as the database is updated.
 
 # **Descriptor “Overlap”**
 
-## *36. There are some studies which have modelled the cost of managing (or containing) invasive species in a landscape. Like other modelling studies, these studies often use known parameters based on a small spatial scale to extrapolate the estimated cost for a larger spatio-temporal scale. While dealing with these studies, should we extract both information or only the extrapolated one?*
+## Question on how dealing with multiple costs from a single study
 
-Yes, we should extract both cost data, which will allow opting for one
-or the other information depending on the analyses targeted and the
-research questions. However, you should indicate that both costs are
+Question: There are some studies which have modelled the cost of
+managing (or containing) invasive species in a landscape. Like other
+modelling studies, these studies often use known parameters based on a
+small spatial scale to extrapolate the estimated cost for a larger
+spatio-temporal scale. While dealing with these studies, should we
+extract both information or only the extrapolated one?\*
+
+Answer: Yes, we should extract both cost data, which will allow opting
+for one or the other information depending on the analyses targeted and
+the research questions. However, you should indicate that both costs are
 overlapping in the **Overlap** descriptor.
 
 # **Descriptor “Benefit\_value(s)”**
 
-## *37. My understanding is that this should be noted with “Yes” only if the authors also reported that the given IAS also produces some positive monetary values, and they reported such values in the paper? There is also a case where authors report cost of controlling/eradicating some species, and they also provide some positive values that such control efforts produce (e.g. increased employment), but I think this should not be considered as a benefit value of IAS, as it is not a monetary gain IAS produces, right?*
+## Question on whether and how reporting monetary benefices
 
-Yes, we consider **Benefit\_values** as existing from the analysed
-sources only when money was gained from direct exploitation of the
-invasive alien species (IAS) studied. In the second case you explained,
-we considered *avoiding costs* for those apparent benefit-like values,
-i.e. money that is not loss any more due to efficient management
-strategy targeting the involved IAS. For instance, if a species A
-(impacting agriculture) was successfully controlled (control costs =
-10,000 USD) and that the net benefit is 13,000 USD, we use one line for
-control costs (= 10,000 USD) and another for avoiding costs (= 13,000
-USD). Alternatively, if this species A is used for trade activities that
-generates 14,000 USD, we simply mentioned *yes* in the
-**Benefit\_values** column , but only if the source also contains (at
+Question: My understanding is that this should be noted with “Yes” only
+if the authors also reported that the given IAS also produces some
+positive monetary values, and they reported such values in the paper?
+There is also a case where authors report cost of
+controlling/eradicating some species, and they also provide some
+positive values that such control efforts produce (e.g. increased
+employment), but I think this should not be considered as a benefit
+value of IAS, as it is not a monetary gain IAS produces, right?\*
+
+Answer: Yes, we consider **Benefit\_values** as existing from the
+analysed sources only when money was gained from direct exploitation of
+the invasive alien species (IAS) studied. In the second case you
+explained, we considered *avoiding costs* for those apparent
+benefit-like values, i.e. money that is not loss any more due to
+efficient management strategy targeting the involved IAS. For instance,
+if a species A (impacting agriculture) was successfully controlled
+(control costs = 10,000 USD) and that the net benefit is 13,000 USD, we
+use one line for control costs (= 10,000 USD) and another for avoiding
+costs (= 13,000 USD). Alternatively, if this species A is used for trade
+activities that generates 14,000 USD, we simply mentioned *yes* in the
+**Benefit\_values** column, but only if the source also contains (at
 least) one cost estimate – which is the first requirement to have this
 source recorded in the database.
